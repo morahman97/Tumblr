@@ -1,0 +1,6 @@
+framework module Pods_Tumbr_LabUITests {
+  umbrella header "Pods-Tumbr LabUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

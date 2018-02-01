@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		819B1E96B89CC4E828260088 /* Pods_Tumbr_LabTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F716A788857F98D3934D95 /* Pods_Tumbr_LabTests.framework */; };
+		A71262ABBD74EA9315E061A9 /* Pods_Tumbr_Lab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379C51A9741828EEE79A6D39 /* Pods_Tumbr_Lab.framework */; };
+		CD0272EF2022CD5C0074D7EC /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0272EE2022CD5C0074D7EC /* PhotosViewController.swift */; };
+		CD0272F12022D4530074D7EC /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0272F02022D4530074D7EC /* PhotoCell.swift */; };
+		CD2E9317EE849307B7ED9395 /* Pods_Tumbr_LabUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA4966DAC948C9C0C1325CB /* Pods_Tumbr_LabUITests.framework */; };
 		CD579C062022CB200002FA4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD579C052022CB200002FA4E /* AppDelegate.swift */; };
-		CD579C082022CB200002FA4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD579C072022CB200002FA4E /* ViewController.swift */; };
 		CD579C0B2022CB200002FA4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD579C092022CB200002FA4E /* Main.storyboard */; };
 		CD579C0D2022CB200002FA4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD579C0C2022CB200002FA4E /* Assets.xcassets */; };
 		CD579C102022CB200002FA4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD579C0E2022CB200002FA4E /* LaunchScreen.storyboard */; };
@@ -34,9 +38,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A558C35EEA566E7F1132D05 /* Pods-Tumbr LabUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumbr LabUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tumbr LabUITests/Pods-Tumbr LabUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D5E32FEC236B6341F779FF6 /* Pods-Tumbr LabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumbr LabTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tumbr LabTests/Pods-Tumbr LabTests.release.xcconfig"; sourceTree = "<group>"; };
+		379C51A9741828EEE79A6D39 /* Pods_Tumbr_Lab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tumbr_Lab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F716A788857F98D3934D95 /* Pods_Tumbr_LabTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tumbr_LabTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DAEF7E36CD0CBE1466B668 /* Pods-Tumbr Lab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumbr Lab.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tumbr Lab/Pods-Tumbr Lab.release.xcconfig"; sourceTree = "<group>"; };
+		89DEAA17338F21504DB9AF56 /* Pods-Tumbr Lab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumbr Lab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tumbr Lab/Pods-Tumbr Lab.debug.xcconfig"; sourceTree = "<group>"; };
+		A62A4CBD7810C66A9287E252 /* Pods-Tumbr LabUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumbr LabUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tumbr LabUITests/Pods-Tumbr LabUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CD0272EE2022CD5C0074D7EC /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		CD0272F02022D4530074D7EC /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		CD579C022022CB200002FA4E /* Tumbr Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tumbr Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD579C052022CB200002FA4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD579C072022CB200002FA4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD579C0A2022CB200002FA4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD579C0C2022CB200002FA4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD579C0F2022CB200002FA4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +59,8 @@
 		CD579C212022CB200002FA4E /* Tumbr LabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tumbr LabUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD579C252022CB200002FA4E /* Tumbr_LabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tumbr_LabUITests.swift; sourceTree = "<group>"; };
 		CD579C272022CB200002FA4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA4966DAC948C9C0C1325CB /* Pods_Tumbr_LabUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tumbr_LabUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F11884D0DE7A2D2A56CB06 /* Pods-Tumbr LabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumbr LabTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tumbr LabTests/Pods-Tumbr LabTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A71262ABBD74EA9315E061A9 /* Pods_Tumbr_Lab.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				819B1E96B89CC4E828260088 /* Pods_Tumbr_LabTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD2E9317EE849307B7ED9395 /* Pods_Tumbr_LabUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		364E053A20137B6134FF04F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				379C51A9741828EEE79A6D39 /* Pods_Tumbr_Lab.framework */,
+				41F716A788857F98D3934D95 /* Pods_Tumbr_LabTests.framework */,
+				CDA4966DAC948C9C0C1325CB /* Pods_Tumbr_LabUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F59150CA84D052DC11A2CEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89DEAA17338F21504DB9AF56 /* Pods-Tumbr Lab.debug.xcconfig */,
+				76DAEF7E36CD0CBE1466B668 /* Pods-Tumbr Lab.release.xcconfig */,
+				E9F11884D0DE7A2D2A56CB06 /* Pods-Tumbr LabTests.debug.xcconfig */,
+				2D5E32FEC236B6341F779FF6 /* Pods-Tumbr LabTests.release.xcconfig */,
+				0A558C35EEA566E7F1132D05 /* Pods-Tumbr LabUITests.debug.xcconfig */,
+				A62A4CBD7810C66A9287E252 /* Pods-Tumbr LabUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CD579BF92022CB200002FA4E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				CD579C192022CB200002FA4E /* Tumbr LabTests */,
 				CD579C242022CB200002FA4E /* Tumbr LabUITests */,
 				CD579C032022CB200002FA4E /* Products */,
+				3F59150CA84D052DC11A2CEA /* Pods */,
+				364E053A20137B6134FF04F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +140,9 @@
 			isa = PBXGroup;
 			children = (
 				CD579C052022CB200002FA4E /* AppDelegate.swift */,
-				CD579C072022CB200002FA4E /* ViewController.swift */,
 				CD579C092022CB200002FA4E /* Main.storyboard */,
+				CD0272F02022D4530074D7EC /* PhotoCell.swift */,
+				CD0272EE2022CD5C0074D7EC /* PhotosViewController.swift */,
 				CD579C0C2022CB200002FA4E /* Assets.xcassets */,
 				CD579C0E2022CB200002FA4E /* LaunchScreen.storyboard */,
 				CD579C112022CB200002FA4E /* Info.plist */,
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD579C2A2022CB200002FA4E /* Build configuration list for PBXNativeTarget "Tumbr Lab" */;
 			buildPhases = (
+				EA24BEEED6578CE43C3BB66A /* [CP] Check Pods Manifest.lock */,
 				CD579BFE2022CB200002FA4E /* Sources */,
 				CD579BFF2022CB200002FA4E /* Frameworks */,
 				CD579C002022CB200002FA4E /* Resources */,
+				30423103EB07F3A1D43A6EBE /* [CP] Embed Pods Frameworks */,
+				9D82F3B61E06DD79B8451E02 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD579C2D2022CB200002FA4E /* Build configuration list for PBXNativeTarget "Tumbr LabTests" */;
 			buildPhases = (
+				8532F2862CE2A2C81FB3A41D /* [CP] Check Pods Manifest.lock */,
 				CD579C122022CB200002FA4E /* Sources */,
 				CD579C132022CB200002FA4E /* Frameworks */,
 				CD579C142022CB200002FA4E /* Resources */,
+				4903B10F65425F24D8414D20 /* [CP] Embed Pods Frameworks */,
+				0EE2184ACE8EA8956C67DD47 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD579C302022CB200002FA4E /* Build configuration list for PBXNativeTarget "Tumbr LabUITests" */;
 			buildPhases = (
+				46A37ECF4F85F89517E616FF /* [CP] Check Pods Manifest.lock */,
 				CD579C1D2022CB200002FA4E /* Sources */,
 				CD579C1E2022CB200002FA4E /* Frameworks */,
 				CD579C1F2022CB200002FA4E /* Resources */,
+				5AD520BD7504D7479612E50F /* [CP] Embed Pods Frameworks */,
+				DC6F1035DF54EBF547F4CB87 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +306,166 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EE2184ACE8EA8956C67DD47 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tumbr LabTests/Pods-Tumbr LabTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30423103EB07F3A1D43A6EBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tumbr Lab/Pods-Tumbr Lab-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tumbr Lab/Pods-Tumbr Lab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46A37ECF4F85F89517E616FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tumbr LabUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4903B10F65425F24D8414D20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tumbr LabTests/Pods-Tumbr LabTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AD520BD7504D7479612E50F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tumbr LabUITests/Pods-Tumbr LabUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8532F2862CE2A2C81FB3A41D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tumbr LabTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D82F3B61E06DD79B8451E02 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tumbr Lab/Pods-Tumbr Lab-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC6F1035DF54EBF547F4CB87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tumbr LabUITests/Pods-Tumbr LabUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA24BEEED6578CE43C3BB66A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tumbr Lab-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD579BFE2022CB200002FA4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD579C082022CB200002FA4E /* ViewController.swift in Sources */,
 				CD579C062022CB200002FA4E /* AppDelegate.swift in Sources */,
+				CD0272F12022D4530074D7EC /* PhotoCell.swift in Sources */,
+				CD0272EF2022CD5C0074D7EC /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +629,7 @@
 		};
 		CD579C2B2022CB200002FA4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89DEAA17338F21504DB9AF56 /* Pods-Tumbr Lab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +644,7 @@
 		};
 		CD579C2C2022CB200002FA4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76DAEF7E36CD0CBE1466B668 /* Pods-Tumbr Lab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +659,7 @@
 		};
 		CD579C2E2022CB200002FA4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F11884D0DE7A2D2A56CB06 /* Pods-Tumbr LabTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +676,7 @@
 		};
 		CD579C2F2022CB200002FA4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D5E32FEC236B6341F779FF6 /* Pods-Tumbr LabTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +693,7 @@
 		};
 		CD579C312022CB200002FA4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A558C35EEA566E7F1132D05 /* Pods-Tumbr LabUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +709,7 @@
 		};
 		CD579C322022CB200002FA4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62A4CBD7810C66A9287E252 /* Pods-Tumbr LabUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
