@@ -117,6 +117,12 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
     
         destinationViewController.url=(tableViewOutlet.cellForRow(at: indexPath!)as!PhotoCell).curl
     }
+    
+    // Get rid of the gray selection effect by deselecting the cell with animation
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
