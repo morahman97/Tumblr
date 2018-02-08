@@ -78,6 +78,7 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
             let urlString = originalSize["url"] as! String
             // 4.
             let url = URL(string: urlString)
+            cell.curl=url
             cell.imageViewOutlet.af_setImage(withURL: url!)
             
 
@@ -108,6 +109,14 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
         task.resume()
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationViewController = segue.destination as! PhotoDetailsViewController
+        
+        let cell = sender as! PhotoCell
+        let indexPath = tableViewOutlet.indexPath(for: cell)
+    
+        destinationViewController.url=(tableViewOutlet.cellForRow(at: indexPath!)as!PhotoCell).curl
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

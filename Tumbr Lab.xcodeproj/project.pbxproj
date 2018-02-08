@@ -18,6 +18,7 @@
 		CD579C102022CB200002FA4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD579C0E2022CB200002FA4E /* LaunchScreen.storyboard */; };
 		CD579C1B2022CB200002FA4E /* Tumbr_LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD579C1A2022CB200002FA4E /* Tumbr_LabTests.swift */; };
 		CD579C262022CB200002FA4E /* Tumbr_LabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD579C252022CB200002FA4E /* Tumbr_LabUITests.swift */; };
+		CDE6D807202C076600E0FBD8 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE6D806202C076600E0FBD8 /* PhotoDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		CD579C252022CB200002FA4E /* Tumbr_LabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tumbr_LabUITests.swift; sourceTree = "<group>"; };
 		CD579C272022CB200002FA4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDA4966DAC948C9C0C1325CB /* Pods_Tumbr_LabUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tumbr_LabUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE6D806202C076600E0FBD8 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		E9F11884D0DE7A2D2A56CB06 /* Pods-Tumbr LabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumbr LabTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tumbr LabTests/Pods-Tumbr LabTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,6 +143,7 @@
 			children = (
 				CD579C052022CB200002FA4E /* AppDelegate.swift */,
 				CD579C092022CB200002FA4E /* Main.storyboard */,
+				CDE6D806202C076600E0FBD8 /* PhotoDetailsViewController.swift */,
 				CD0272F02022D4530074D7EC /* PhotoCell.swift */,
 				CD0272EE2022CD5C0074D7EC /* PhotosViewController.swift */,
 				CD579C0C2022CB200002FA4E /* Assets.xcassets */,
@@ -463,6 +466,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE6D807202C076600E0FBD8 /* PhotoDetailsViewController.swift in Sources */,
 				CD579C062022CB200002FA4E /* AppDelegate.swift in Sources */,
 				CD0272F12022D4530074D7EC /* PhotoCell.swift in Sources */,
 				CD0272EF2022CD5C0074D7EC /* PhotosViewController.swift in Sources */,
