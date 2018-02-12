@@ -23,15 +23,15 @@ The following **additional** user stories are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. How to incorporate spacing between photo cells.
+2. How to implement this assignment using other views and layouts.
 
 ## Video Walkthrough
 
-Here's a link to walkthrough of implemented user stories:
-https://i.imgur.com/hKsnkbp.gif
+Here's a walkthrough of implemented user stories:
+<img src='https://imgur.com/qSCDWUh.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [GIPHY CAPTURE](http://www.cockos.com/licecap/).
+GIF created with [LICEcap](http://www.cockos.com/licecap/).
 
 ## Notes
 
@@ -63,7 +63,7 @@ Time spent: **1.5** hours spent in total
 
 The following **required** user stories are complete:
 
-- [ ] User can tab an image to view a larger image in a detail view (5pts)
+- [x] User can tab an image to view a larger image in a detail view (5pts)
 
 The following **stretch** user stories are implemented:
 
@@ -77,8 +77,8 @@ The following **additional** user stories are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. How to use multiple APIs simultaneously
+2. How to create a user login feature
 
 ## Video Walkthrough
 
@@ -90,7 +90,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+One particular issue was getting the photo to show up in detail view
 
 ## License
 
